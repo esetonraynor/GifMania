@@ -1,0 +1,57 @@
+@font-face {
+	font-family: "Pentagon";
+	src:url(../images/Pentagon.ttf);
+}
+
+label, p {
+	font-size:40px;
+	font-family: "Pentagon";
+	color:#0c4cb2;
+}
+
+body {
+	background-color:#052559;
+}
+
+#addABook {
+	width:50%;
+	border-top:10px #0c4cb2 double;
+	border-right:10px #0c4cb2 double;
+	border-left:10px #0c4cb2 double;
+	border-bottom:none;
+	padding:10px;
+	margin:auto;
+	text-align:center;
+	background-image:url(../images/flag.png);
+}
+
+#userInput {
+	width:50%;
+	margin:auto;
+}
+
+#buttonsNav {
+	background-image:url(../images/flag.png);
+	overflow:auto;
+	height
+}
+
+.state, #add {
+	margin:10px;
+	background-color:red;
+	font-family: "Pentagon";
+	width:10%;
+	font-size:20px;
+	font-weight:lighter;
+}
+
+#gifView {
+	margin:auto;
+	border-top:none;
+	border-left:10px #0c4cb2 double;
+	border-right:10px #0c4cb2 double;
+	border-bottom:10px #0c4cb2 double;
+	width:50%;
+	text-align:center;
+	font-family: "Pentagon";
+}
