@@ -73,8 +73,17 @@ $("#add").on("click", function(event) {
 
 	var state = $("#userInput").val().trim();
 
-	states.push(state);
+	// for (var i = 0; i < states.length; i++) {
 
+	// 	if ($("#userInput") === states[i]) {
+	// 		alert("You already added that state!");
+	// 	} else if ($("#userInput") !=== states[i]) {
+	// 		states.push(state);
+	// 	}
+	// }
+
+	states.push(state);
+	
 	console.log(states);
 
 	makeButtons();
